@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;800;900&display=swap");
+
+body {
+  background-color: #2ec48f;
+}
+
+.container-cities {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
+  font-size: 64px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  color: #202020;
+}
+
+h2 {
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
+  font-size: 40px;
+  padding-top: 6px;
+  color: #202020;
+}
+
+h3 {
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
+  font-size: 24px;
+  padding-top: 6px;
+  color: #202020;
+}
+
+p {
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
+  font-size: 16px;
+  text-align: center;
+  line-height: 18px;
+  color: #202020;
+}
+
+.img-city {
+  background-image: url(../assets/banner.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 188px;
+  width: 1300px;
+  border-radius: 5px;
+}
+
+.picto-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 8rem;
+  padding-bottom: 90px;
+}
+
+.picto-city {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.image-picto-dechets {
+  background-image: url(../assets/dechets.svg);
+  height: 108px;
+  width: 108px;
+}
+
+.image-picto-green {
+  background-image: url(../assets/green.svg);
+  height: 108px;
+  width: 108px;
+}
+
+.image-picto-water {
+  background-image: url(../assets/water.svg);
+  height: 108px;
+  width: 108px;
+}
+
+.image-picto-bike {
+  background-image: url(../assets/bike.svg);
+  height: 108px;
+  width: 108px;
+}
+
+.button-city {
+  background-color: #202020;
+  color: #2ec48f;
+  height: 50px;
+  width: 290px;
+  border-radius: 5px;
+}
+
+.container-ville-verte {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  height: 500px;
+  width: 100%;
+  margin-top: 50px;
+  padding-top: 90px;
+  padding-left: 180px;
+  padding-right: 180px;
+}
+
+.title-green {
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
+  font-size: 48px;
+  color: #2ec48f;
+  border-bottom: 3px solid #2ec48f;
+}
+
+.picto-container-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 4rem;
+  padding-bottom: 0px;
+}
+
+.image-picto-certif {
+  background-image: url(../assets/certification.svg);
+  height: 74px;
+  width: 74px;
+}
+
+.image-picto-transport {
+  background-image: url(../assets/transport.svg);
+  height: 74px;
+  width: 74px;
+}
+
+.image-picto-budget {
+  background-image: url(../assets/budget.svg);
+  height: 74px;
+  width: 74px;
+}
+
+.image-picto-air {
+  background-image: url(../assets/air.svg);
+  height: 74px;
+  width: 74px;
+}
+
+.image-picto-habitants {
+  background-image: url(../assets/habitant.svg);
+  height: 74px;
+  width: 74px;
+}
+
+.image-picto-bobo {
+  background-image: url(../assets/bobo.svg);
+  height: 74px;
+  width: 74px;
+}
+
+.paragraph-picto {
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 18px;
+  color: #202020;
+}
+
+.h3-ville-verte {
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
+  font-size: 24px;
+  padding-top: 6px;
+  text-align: left;
+  color: #202020;
+}
+
+.p-ville-verte {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  color: #202020;
+}
