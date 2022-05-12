@@ -1,5 +1,6 @@
 import React from 'react'
 import SearchBar from './SearchBar'
+import CityList from './CityList'
 
 function Home() {
   return (
@@ -9,6 +10,7 @@ function Home() {
         Trouvez la ville proche de vos préoccupations écologiques avec EcoCity.fr
       </div>
       <SearchBar />
+      <CityList />
     </div>
     </>
   )
