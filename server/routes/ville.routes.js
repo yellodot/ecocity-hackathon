@@ -26,7 +26,7 @@ router.get("/:id", (req, res) => {
     }
   );
 });
-
+/*
 router.post("/", (req, res) => {
   const { id, nom, image, traitement_dechet, espace_vert, qualite_eau, piste_cyclable, transports, budget, qualite_air, label, nb_habitant, bobo_compatible } =
     req.body;
@@ -59,7 +59,7 @@ router.post("/", (req, res) => {
     }
   );
 });
-
+*/
 /*
   router.put("/:id", (req, res) => {
     const heroId = req.params.id;
