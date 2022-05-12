@@ -1,0 +1,21 @@
+.header{
+    height: 144px;
+}
+.container-header{
+    display:flex;
+    justify-content: space-between;
+    background-color: rgba(46, 196, 143, 1);
+}
+.button-contact{
+    height: 40px;
+    width: 200px;
+    left: 1234px;
+    top: 49px;
+    border-radius: 5px;
+    color:#2EC48F;
+    background: rgba(32, 32, 32, 1);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+}

@@ -1,15 +1,21 @@
 import './App.css';
 import { Routes, Route } from "react-router-dom";
 import Home from './components/Home';
+import Header from "./components/header/Header.jsx";
 
 
 function App() {
   return (
-    <div className='flex w-screen'>
+     <>
+       <Header/>
+    <div>
+     
       <Routes>
         <Route path="/" element={<Home />} />
       </Routes>
     </div>
+
+    </>
   );
 }
 
