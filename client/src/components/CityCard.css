@@ -106,16 +106,15 @@
     width: 108px;
   }
 
-  .picto-city {
+  .card-picto-city {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 1rem;
   }
 
   .card-picto-container {
     display: flex;
     gap: 3rem;
-    padding-bottom: 6rem;
+    padding-bottom: 8rem;
   }
