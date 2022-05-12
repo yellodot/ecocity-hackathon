@@ -18,7 +18,7 @@ const CityCard = ( {nom, score }) => {
             </div>
           </div>
           <div className='rightContainer'>
-            <h1 className='name score'>{score}/100</h1>
+            <h1 className='h1-card name score'>{score}/100</h1>
             <div className="card-picto-container">
                 <div className="card-picto-city">
                     {" "}
