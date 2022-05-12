@@ -16,13 +16,17 @@ h1 {
   font-weight: 800;
   font-size: 64px;
   padding-top: 60px;
+  padding-bottom: 60px;
+
+  color: #202020;
 }
 
 h2 {
   font-family: "Inter", sans-serif;
   font-weight: 900;
-  font-size: 48px;
+  font-size: 40px;
   padding-top: 6px;
+  color: #202020;
 }
 
 h3 {
@@ -30,6 +34,7 @@ h3 {
   font-weight: 900;
   font-size: 24px;
   padding-top: 6px;
+  color: #202020;
 }
 
 p {
@@ -38,6 +43,7 @@ p {
   font-size: 16px;
   text-align: center;
   line-height: 18px;
+  color: #202020;
 }
 
 .img-city {
@@ -47,14 +53,14 @@ p {
   background-size: cover;
   height: 188px;
   width: 1300px;
-  border-radius: 30px;
+  border-radius: 5px;
 }
 
 .picto-container {
   display: flex;
   justify-content: space-around;
-  gap: 4rem;
-  padding-bottom: 130px;
+  gap: 8rem;
+  padding-bottom: 90px;
 }
 
 .picto-city {
@@ -167,19 +173,22 @@ p {
   font-weight: 800;
   font-size: 16px;
   line-height: 18px;
+  color: #202020;
 }
 
 .h3-ville-verte {
   font-family: "Inter", sans-serif;
-  font-weight: 900;
+  font-weight: 800;
   font-size: 24px;
   padding-top: 6px;
   text-align: left;
+  color: #202020;
 }
 
 .p-ville-verte {
   font-family: "Inter", sans-serif;
-  font-weight: 800;
+  font-weight: 500;
   font-size: 16px;
   line-height: 18px;
+  color: #202020;
 }

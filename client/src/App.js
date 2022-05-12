@@ -4,18 +4,16 @@ import Home from "./components/Home";
 import CityDetails from "./components/CityDetails";
 import Header from "./components/header/Header.jsx";
 
-
 function App() {
   return (
-     <>
-       <Header/>
-    <div>
-           <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/city-details" element={<CityDetails />} />
-      </Routes>
-    </div>
-
+    <>
+      <Header />
+      <div>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/city-details" element={<CityDetails />} />
+        </Routes>
+      </div>
     </>
   );
 }
