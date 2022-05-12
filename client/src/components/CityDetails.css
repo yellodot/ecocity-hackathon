@@ -16,7 +16,7 @@ h1 {
   font-weight: 800;
   font-size: 64px;
   padding-top: 60px;
-  padding-bottom: 60px;
+  padding-bottom: 30px;
 
   color: #202020;
 }
@@ -106,7 +106,7 @@ p {
 .container-ville-verte {
   display: flex;
   flex-direction: column;
-  background-color: white;
+  background-color: #eaf8bf;
   height: 500px;
   width: 100%;
   margin-top: 50px;

@@ -6,7 +6,7 @@ const CityDetails = () => {
     <div>
       <div className="container-cities">
         {" "}
-        <div className="img-city" />
+        {/* <div className="img-city" /> */}
         <h1>Strasbourg</h1>
         <div className="picto-container">
           <div className="picto-city">
@@ -46,7 +46,7 @@ const CityDetails = () => {
         <button className="button-city">Trouver un logement</button>
       </div>
       <div className="container-ville-verte">
-        <h2 className="title-green">Nom de la ville + une ville verte</h2>
+        <h2 className="title-green">Strasbourg une ville verte</h2>
         <div className="green-line"></div>
         <div className="picto-container-2">
           <div className="picto-city">
