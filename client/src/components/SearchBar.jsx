@@ -53,7 +53,7 @@ function SearchBar() {
           <button
             disabled={filteredList.length > 1 ? true : false}
             // onClick={() => displayDetails(filteredList[0].id)}
-            onClick={() => alert("Ca marche !")}
+            // onClick={() => alert("Ca marche !")}
             className="px-4 text-white bg-gray-900 border-l "
           >
             Go !
