@@ -95,8 +95,11 @@ body {
 }
 
 .button-city {
+  display: flex;
   background-color: #202020;
   color: #2ec48f;
+  align-items: center;
+  justify-content: center;
   height: 50px;
   width: 290px;
   border-radius: 5px;
