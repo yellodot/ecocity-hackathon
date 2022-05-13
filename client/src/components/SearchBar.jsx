@@ -38,7 +38,7 @@ function SearchBar() {
   return (
     <>
       <div className="flex flex-col items-center justify-center ">
-        <div className="flex border-2 border-neutral-700 rounded mb-6">
+        <div className="flex border-4 border-neutral-900 rounded mb-6">
           <form>
             <input
               onChange={(e) => {
@@ -46,7 +46,7 @@ function SearchBar() {
               }}
               value={query}
               type="text"
-              className="px-4 py-2 w-80 placeholder-zinc-900"
+              className="px-4 py-4 w-80 placeholder-zinc-900 bg-transparent focus:outline-none"
               placeholder="Rechercher une ville..."
             />
           </form>
@@ -54,7 +54,7 @@ function SearchBar() {
             disabled={filteredList.length > 1 ? true : false}
             // onClick={() => displayDetails(filteredList[0].id)}
             // onClick={() => alert("Ca marche !")}
-            className="px-4 text-white bg-gray-900 border-l "
+            className="py-4 px-4 text-white bg-gray-900 border-4-neutral-900 "
           >
             Go !
           </button>
