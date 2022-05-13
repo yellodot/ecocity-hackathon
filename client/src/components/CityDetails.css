@@ -95,6 +95,9 @@ body {
 }
 
 .button-city {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #202020;
   color: #2ec48f;
   height: 50px;

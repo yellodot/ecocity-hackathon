@@ -60,7 +60,9 @@ const CityDetails = () => {
             </p>
           </div>
         </div>
-        <button className="button-city">Trouver un logement</button>
+        <a className="button-city" href="https://www.seloger.com/">
+          Trouver un logement
+        </a>
       </div>
       <div className="container-ville-verte">
         <h2 className="title-green">{cities.nom} une ville verte</h2>

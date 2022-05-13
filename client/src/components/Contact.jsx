@@ -38,8 +38,8 @@ class App extends React.Component {
                 type="text"
                 className="form-control"
                 placeholder="Prénom"
-                value={this.state.name}
-                onChange={this.onNameChange.bind(this)}
+                value={this.state.firstname}
+                onChange={this.onFirstnameChange.bind(this)}
               />
             </div>
           </div>
@@ -74,6 +74,10 @@ class App extends React.Component {
 
   onNameChange(event) {
     this.setState({ name: event.target.value });
+  }
+
+  onFirstnameChange(event) {
+    this.setState({ firstname: event.target.value });
   }
 
   onEmailChange(event) {
