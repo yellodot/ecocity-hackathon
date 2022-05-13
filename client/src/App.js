@@ -1,15 +1,24 @@
-import './App.css';
+import "./App.css";
 import { Routes, Route } from "react-router-dom";
-import Home from './components/Home';
-
+import Home from "./components/Home";
+import CityDetails from "./components/CityDetails";
+import Header from "./components/header/Header.jsx";
+import Contact from "./components/Contact";
+import Footer from "./components/footer/footer.jsx";
 
 function App() {
   return (
-    <div className='flex w-screen'>
-      <Routes>
-        <Route path="/" element={<Home />} />
-      </Routes>
-    </div>
+    <>
+      <Header />
+      <div>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/city-details" element={<CityDetails />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+        <Footer />
+      </div>
+    </>
   );
 }
 
