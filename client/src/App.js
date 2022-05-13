@@ -1,8 +1,9 @@
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
 import CityDetails from "./components/CityDetails";
-import Home from "./components/Home";
 import Header from "./components/header/Header.jsx";
+import Contact from "./components/Contact";
+import Footer from "./components/footer/footer.jsx";
 
 function App() {
   return (
@@ -12,7 +13,9 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/city-details" element={<CityDetails />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
+        <Footer />
       </div>
     </>
   );

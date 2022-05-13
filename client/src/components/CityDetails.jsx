@@ -7,7 +7,7 @@ const CityDetails = () => {
       <div className="container-cities">
         {" "}
         <div className="img-city" />
-        <h1>Nom de la ville</h1>
+        <h1>Strasbourg</h1>
         <div className="picto-container">
           <div className="picto-city">
             {" "}
