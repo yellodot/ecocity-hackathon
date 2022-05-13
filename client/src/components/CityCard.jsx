@@ -2,7 +2,7 @@ import React from 'react'
 import './/CityCard.css';
 import { Link } from 'react-router-dom';
 
-const CityCard = ( {nom, score, dechets, espace, qualite }) => {
+const CityCard = ( {id, nom, score, dechets, espace, qualite }) => {
   return (
       <div className='cityCardContainer'>
           <div className='leftContainer'>
@@ -10,7 +10,7 @@ const CityCard = ( {nom, score, dechets, espace, qualite }) => {
             <p className='cityP'> classLorem ipsum dolor sit amet consectetur adipisicing elit. Quam tempora dicta, possimus saepe ullam facilis quasi recusandae sapiente expedita quae!</p>
             <div className='linkCard'>
                 <div className='linkDetail'>
-                    <Link to="/detail" className="link">
+                    <Link to={`/${id}`} className="link">
                         Découvrir la ville
                     </Link>
                 </div>
