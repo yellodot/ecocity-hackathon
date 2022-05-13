@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useMemo } from 'react'
 import axios from 'axios';
+import CityCard from './CityCard'
 
 function Filters() {
 
@@ -137,7 +138,7 @@ function Filters() {
               {
                 filteredCities?.map((city) => 
                 <li className='pb-6'>
-                  {city.nom}
+                  <CityCard nom={city.nom} score={city.score} />
                 </li>
                 )
               }
