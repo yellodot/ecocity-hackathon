@@ -138,7 +138,7 @@ function Filters() {
               {
                 filteredCities?.map((city) => 
                 <li className='pb-6'>
-                  <CityCard nom={city.nom} score />
+                  <CityCard nom={city.nom} score={city.score} />
                 </li>
                 )
               }
