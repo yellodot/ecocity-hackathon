@@ -14,8 +14,6 @@ function SearchBar() {
     setQuery(e.target.value.toLowerCase())
   }
 
-  console.log(query)
-
   useEffect(() => {
     axios.get(`http://localhost:8000/api/villes`)
     .then(res => res.data)
