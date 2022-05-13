@@ -46,7 +46,7 @@ body {
 }
 
 .img-city {
-  background-image: url(../assets/banner.png);
+  /* background-image: url(../assets/banner.png); */
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
