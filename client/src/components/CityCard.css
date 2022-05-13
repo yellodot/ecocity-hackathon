@@ -17,6 +17,8 @@
 .cityP {
   font-weight: 400;
   font-size: 20px;
+  padding-top: 0.8rem;
+  height: 8rem;
 }
 
 .cityCardContainer {
@@ -27,7 +29,7 @@
     background-color: #EAF8BF;
     border-radius: 20px;
     display: flex;
-    gap: 6rem;
+    gap: 2rem;
 }
 
 .leftContainer {
@@ -55,11 +57,6 @@
     font-size: 64px;
     padding-top: 1px;
     color: #2EC48F;
-}
-
-.cityP {
-    padding-top: 0.8rem;
-    height: 8rem;
 }
 
 .linkDetail {
@@ -110,6 +107,6 @@
 
   .card-picto-container {
     display: flex;
-    gap: 3rem;
+    gap: 2rem;
     padding-bottom: 8rem;
   }
