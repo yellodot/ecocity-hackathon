@@ -138,7 +138,7 @@ function Filters() {
               {
                 filteredCities?.map((city) => 
                 <li className='pb-6'>
-                  <CityCard nom={city.nom} score={city.score} dechets={city.traitement_dechet} espace={city.espace_vert} qualite={city.qualite_eau}  />
+                  <CityCard nom={city.nom} score={city.label.toLowerCase()==="vert" ? "80" : city.label.toLowerCase() === "orange" ? "60" : "40"} dechets={city.traitement_dechet} espace={city.espace_vert} qualite={city.qualite_eau}  />
                 </li>
                 )
               }
