@@ -2,7 +2,7 @@ import React from 'react'
 import './/CityCard.css';
 import { Link } from 'react-router-dom';
 
-const CityCard = ( {nom, score }) => {
+const CityCard = ( {nom, score, dechets, espace, qualite }) => {
   return (
       <div className='cityCardContainer'>
           <div className='leftContainer'>
@@ -24,7 +24,7 @@ const CityCard = ( {nom, score }) => {
                     {" "}
                     {/* <img className="image-picto" src="../assets/dechets.svg" alt="" /> */}
                     <div className="image-picto-dechets"></div>
-                    <h2>5/5</h2>
+                    <h2 className='h2-card'>{dechets}</h2>
                     <p>
                     Traitement <br /> des déchets
                     </p>
@@ -32,7 +32,7 @@ const CityCard = ( {nom, score }) => {
                 <div className="card-picto-city">
                     {" "}
                     <div className="image-picto-green"></div>
-                    <h2>100%</h2>
+                    <h2 className='h2-card'>{espace}</h2>
                     <p>
                     Espaces <br /> verts
                     </p>
@@ -40,7 +40,7 @@ const CityCard = ( {nom, score }) => {
                 <div className="card-picto-city">
                     {" "}
                     <div className="image-picto-water"></div>
-                    <h2>Bonne</h2>
+                    <h2 className='h2-card'>{qualite}</h2>
                     <p>
                     Qualité <br /> de l'eau
                     </p>

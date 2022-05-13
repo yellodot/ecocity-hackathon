@@ -1,10 +1,10 @@
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
-import Home from "./components/Home";
 import CityDetails from "./components/CityDetails";
-import Header from "./components/header/Header.jsx";
 import Contact from "./components/Contact";
 import Footer from "./components/footer/footer.jsx";
+import Home from "./components/Home";
+import Header from "./components/header/Header.jsx";
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
       <div>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/city-details" element={<CityDetails />} />
+          <Route path="/:id" element={<CityDetails />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
         <Footer />
