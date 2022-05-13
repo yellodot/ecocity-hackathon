@@ -6,39 +6,39 @@ const CityDetails = () => {
     <div>
       <div className="container-cities">
         {" "}
-        <div className="img-city" />
-        <h1>Strasbourg</h1>
+        {/* <div className="img-city" /> */}
+        <h1 className="h1-details">Strasbourg</h1>
         <div className="picto-container">
           <div className="picto-city">
             {" "}
             {/* <img className="image-picto" src="../assets/dechets.svg" alt="" /> */}
             <div className="image-picto-dechets"></div>
-            <h2>5/5</h2>
-            <p>
+            <h2 className="h2-details">5/5</h2>
+            <p className="p-details">
               Traitement <br /> des déchets
             </p>
           </div>
           <div className="picto-city">
             {" "}
             <div className="image-picto-green"></div>
-            <h2>100%</h2>
-            <p>
+            <h2 className="h2-details">100%</h2>
+            <p className="p-details">
               Espaces <br /> verts
             </p>
           </div>
           <div className="picto-city">
             {" "}
             <div className="image-picto-water"></div>
-            <h2>Bonne</h2>
-            <p>
+            <h2 className="h2-details">Bonne</h2>
+            <p className="p-details">
               Qualité <br /> de l'eau
             </p>
           </div>
           <div className="picto-city">
             {" "}
             <div className="image-picto-bike"></div>
-            <h2>100%</h2>
-            <p>
+            <h2 className="h2-details">100%</h2>
+            <p className="p-details">
               Pistes <br /> cyclables
             </p>
           </div>
@@ -46,7 +46,7 @@ const CityDetails = () => {
         <button className="button-city">Trouver un logement</button>
       </div>
       <div className="container-ville-verte">
-        <h2 className="title-green">Nom de la ville + une ville verte</h2>
+        <h2 className="title-green">Strasbourg une ville verte</h2>
         <div className="green-line"></div>
         <div className="picto-container-2">
           <div className="picto-city">
