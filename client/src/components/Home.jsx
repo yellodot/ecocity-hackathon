@@ -1,4 +1,5 @@
 import React from 'react'
+import FiltersCopy from './FiltersCopy'
 import SearchBar from './SearchBar'
 
 function Home() {
@@ -9,6 +10,7 @@ function Home() {
         Trouvez la ville proche de vos préoccupations écologiques avec EcoCity.fr
       </div>
       <SearchBar />
+      <FiltersCopy />
     </div>
     </>
   )
