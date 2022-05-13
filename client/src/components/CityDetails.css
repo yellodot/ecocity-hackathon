@@ -46,7 +46,7 @@ body {
 }
 
 .img-city {
-  background-image: url(../assets/banner.png);
+  /* background-image: url(../assets/banner.png); */
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -188,6 +188,7 @@ body {
   font-family: "Inter", sans-serif;
   font-weight: 500;
   font-size: 16px;
+  text-align: center;
   line-height: 18px;
   color: #202020;
 }
