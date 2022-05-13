@@ -1,8 +1,7 @@
 import React from "react";
-import FiltersCopy from "./FiltersCopy";
 import SearchBar from "./SearchBar";
 import Filters from './Filters'
-import SearchBar from './SearchBar'
+
 
 function Home() {
   return (
@@ -13,7 +12,7 @@ function Home() {
           EcoCity.fr
         </div>
         <SearchBar />
-        <FiltersCopy />
+        <Filters />
       </div>
     </>
   );
