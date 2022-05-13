@@ -1,10 +1,10 @@
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
 import CityDetails from "./components/CityDetails";
-import Home from "./components/Home";
-import Header from "./components/header/Header.jsx";
 import Contact from "./components/Contact";
 import Footer from "./components/footer/footer.jsx";
+import Home from "./components/Home";
+import Header from "./components/header/Header.jsx";
 
 function App() {
   return (
