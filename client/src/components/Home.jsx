@@ -1,7 +1,6 @@
 import React from "react";
 import FiltersCopy from "./FiltersCopy";
 import SearchBar from "./SearchBar";
-import React from 'react'
 import Filters from './Filters'
 import SearchBar from './SearchBar'
 
