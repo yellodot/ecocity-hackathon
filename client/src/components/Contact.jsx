@@ -23,7 +23,6 @@ class App extends React.Component {
           method="POST"
         >
           <div className="form-group">
-            <label htmlFor="name"></label>
             <input
               type="text"
               className="form-control"
@@ -33,18 +32,16 @@ class App extends React.Component {
             />
 
             <div className="form-group">
-              <label htmlFor="firstname"></label>
               <input
                 type="text"
                 className="form-control"
                 placeholder="Prénom"
-                value={this.state.name}
-                onChange={this.onNameChange.bind(this)}
+                value={this.state.firstname}
+                onChange={this.onFirstnameChange.bind(this)}
               />
             </div>
           </div>
           <div className="form-group">
-            <label htmlFor="exampleInputEmail1"></label>
             <input
               type="email"
               className="form-control"
@@ -55,7 +52,6 @@ class App extends React.Component {
             />
           </div>
           <div className="form-group">
-            <label htmlFor="message"></label>
             <textarea
               className="form-control-message"
               rows="5"
@@ -64,7 +60,11 @@ class App extends React.Component {
               onChange={this.onMessageChange.bind(this)}
             />
           </div>
-          <button className="button-form" type="submit">
+          <button
+            className="button-form"
+            type="submit"
+            onClick={() => alert("Ca marche !")}
+          >
             Envoyer
           </button>
         </form>
@@ -74,6 +74,10 @@ class App extends React.Component {
 
   onNameChange(event) {
     this.setState({ name: event.target.value });
+  }
+
+  onFirstnameChange(event) {
+    this.setState({ firstname: event.target.value });
   }
 
   onEmailChange(event) {
