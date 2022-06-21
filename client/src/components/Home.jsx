@@ -7,8 +7,7 @@ function Home() {
     <>
       <div className="flex flex-col justify-center items-center bg2EC48F w-screen">
         <div className="flex justify-center items-center text-6xl font-bold text-slate-900 text-center py-12 my-14 w-2/3">
-          Trouvez la ville proche de vos préoccupations. Ecocity vous aide à
-          changer de vie.
+          Envie de vous mettre au vert ? Ecocity vous aide à changer de ville.
         </div>
         <SearchBar />
         <Filters />

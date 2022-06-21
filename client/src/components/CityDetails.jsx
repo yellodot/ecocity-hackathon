@@ -30,7 +30,7 @@ const CityDetails = () => {
             {" "}
             {/* <img className="image-picto" src="../assets/dechets.svg" alt="" /> */}
             <div className="image-picto-dechets"></div>
-            <h2 className="h2-details">{cities.traitement_dechet}</h2>
+            <h2 className="h2-details">{cities.traitement_dechet}/5</h2>
             <p className="p-details">
               Traitement <br /> des déchets
             </p>
@@ -38,7 +38,7 @@ const CityDetails = () => {
           <div className="picto-city">
             {" "}
             <div className="image-picto-green"></div>
-            <h2 className="h2-details">{cities.espace_vert}</h2>
+            <h2 className="h2-details">{cities.espace_vert} ha</h2>
             <p className="p-details">
               Espaces <br /> verts
             </p>
@@ -54,7 +54,7 @@ const CityDetails = () => {
           <div className="picto-city">
             {" "}
             <div className="image-picto-bike"></div>
-            <h2 className="h2-details">{cities.piste_cyclable}</h2>
+            <h2 className="h2-details">{cities.piste_cyclable}%</h2>
             <p className="p-details">
               Pistes <br /> cyclables
             </p>
@@ -83,7 +83,7 @@ const CityDetails = () => {
           <div className="picto-city">
             {" "}
             <div className="image-picto-budget"></div>
-            <h3 className="h3-ville-verte">{cities.budget}</h3>
+            <h3 className="h3-ville-verte">{cities.budget} M</h3>
             <p className="p-ville-verte">Budget </p>
           </div>
           <div className="picto-city">
